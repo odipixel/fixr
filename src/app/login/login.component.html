@@ -1,0 +1,39 @@
+<app-post-header></app-post-header>
+<div class="pt-7 pb-7 bg-light">
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+              <div class="card shadow my-5">
+                <div class="card-body">
+                  <h4 class="card-title py-4">Sign In</h4>
+                  <form class="signin-form">
+                    <div class="form-group">
+                      <input type="email" id="inputEmail" class="form-control form-control-lg" placeholder="Email address" required autofocus>
+                     
+                    </div>
+      
+                    <div class="form-group">
+                      <input type="password" id="inputPassword" class="form-control form-control-lg" placeholder="Password" required>
+                    
+                    </div>
+      
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1">Remember me</label>
+                      <small class="d-inline float-right">Forgot Password?</small>
+                    </div>
+                   
+
+                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                    <p class="my-2 text-center">You haven't registered yet ? <a routerLink="/register">Create new account</a></p>
+                    <hr class="my-4">
+                    <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                    <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+                 
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>

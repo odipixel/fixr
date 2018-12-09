@@ -1,0 +1,22 @@
+.feature-sets {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  .feature-sets .title{
+    font-size: 3rem;
+  }
+  .feature-sets .features-sets-div {
+    
+  }
+  
+  .feature-sets .features-sets-div .icon {
+    height: 6rem;
+  }
+  
+  .feature-sets .features-sets-div .icon i {
+    font-size: 4rem;
+  }
+  
+  .feature-sets .features-sets-div:hover .icon i {
+    font-size: 5rem;
+  }

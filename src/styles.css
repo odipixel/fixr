@@ -1,0 +1,184 @@
+/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.pt-7 {
+  padding-top: 7rem;
+}
+.pb-7{
+   padding-bottom: 7rem;
+}
+ .btn-circle{
+   border-radius: 300px;
+ }
+ .text-underline{
+  border-bottom: .25rem solid transparent;
+  border-bottom-color: #007bff;
+ }
+
+#mainnav-bar {
+  /* border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff; */
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background: transparent;
+}
+
+#mainnav-bar .navbar-brand {
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+  font-family: 'Kaushan Script', cursive;
+}
+
+
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link,
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #444;
+}
+
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #444;
+}
+
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link.active,
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #444 !important;
+  background-color: transparent;
+}
+
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainnav-bar .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainnav-bar {
+    border-color: transparent;
+    background: transparent;
+  }
+  #mainnav-bar .navbar-brand {
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+   
+  }
+  #mainnav-bar .navbar-brand:focus, #mainnav-bar .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainnav-bar .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainnav-bar .navbar-nav > li.nav-item > a.nav-link,
+  #mainnav-bar .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #f8f9fa;
+  }
+  #mainnav-bar .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainnav-bar .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+ 
+  #mainnav-bar.navbar-shrink .navbar-brand {
+    color: #444;
+  }
+  #mainnav-bar.navbar-shrink .navbar-brand:focus, #mainnav-bar.navbar-shrink .navbar-brand:hover {
+    color: #444;
+  }
+  #mainnav-bar.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainnav-bar.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainnav-bar.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainnav-bar.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #444;
+  }
+}
+
+#hero-background {
+  padding-top: 10rem;
+  /* background-image: url("./assets/img/hero-image.jpg"); */
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+#hero-background .overlay ,.overlay{
+   position: absolute;
+   background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+#hero-background hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#hero-background h1 {
+  font-size: 2rem;
+}
+
+
+
+@media (min-width: 768px) {
+  #hero-background p {
+    font-size: 1.15rem;
+  }
+  #mainnav-bar .navbar-brand {
+    color: #fff ;
+  }
+ #mainnav-bar .navbar-brand:hover {
+    color: #fff;
+  }
+
+}
+
+@media (min-width: 992px) {
+  #hero-background {
+    min-height: 550px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #hero-background h1 {
+    font-size: 3rem;
+  }
+  
+}
+
+
+/* login and register styles */
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+
+.signin-form .btn {
+  font-size: .8rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}

@@ -1,0 +1,12 @@
+.brand-logo {
+    font-weight: 700 !important;
+    font-family: 'Kaushan Script', cursive;
+  }
+.nav-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+.nav-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  } 
