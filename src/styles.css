@@ -18,7 +18,10 @@ html {
   border-bottom: .25rem solid transparent;
   border-bottom-color: #007bff;
  }
-
+ .brand-logo {
+  font-weight: 700 !important;
+  font-family: 'Kaushan Script', cursive;
+}
 #mainnav-bar {
   /* border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff; */
